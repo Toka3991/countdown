@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url(./images/christmastree.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 body {
@@ -11,7 +15,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #282c34;
-    color: #ffffff;
+    color: #eb0c74;
 }
 
 .countdown {
@@ -20,6 +24,9 @@ body {
     padding: 40px 20px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-image: url(./images/snowflake.png);
+    background-size: 100px;
+    background-repeat: repeat;
 }
 
 .countdown h1 {
@@ -38,6 +45,9 @@ body {
     background-color: #555;
     padding: 20px 30px;
     border-radius: 10px;
+    background-image: url(./images/tumblr_682b7cc5d12fd164fd1097eeaae4e5c9_96fd1618_500.gif);
+    background-size: 200px;
+    background-repeat: round;
 }
 
 .label {
