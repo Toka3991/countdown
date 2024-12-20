@@ -1,4 +1,3 @@
-// Set the countdown date (YYYY-MM-DD HH:MM:SS)
 const countdownDate = new Date("2024-12-31 23:59:59").getTime();
 
 function updateCountdown() {
@@ -22,6 +21,5 @@ function updateCountdown() {
     document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
 }
 
-// Update countdown every second
 const interval = setInterval(updateCountdown, 1000);
-updateCountdown(); // Call once to prevent 1s delay
+updateCountdown();
