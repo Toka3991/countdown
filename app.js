@@ -23,3 +23,9 @@ function updateCountdown() {
 
 const interval = setInterval(updateCountdown, 1000);
 updateCountdown();
+
+var audio = document.querySelector('audio');
+  // Play the audio when the page is loaded
+  window.onload = function() {
+    audio.play();
+  };
