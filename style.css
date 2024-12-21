@@ -55,3 +55,38 @@ body {
     color: #ddd;
     margin-top: 5px;
 }
+
+@media (max-width: 768px) {
+    .countdown {
+        padding: 20px;
+    }
+
+    .countdown h1 {
+        font-size: 2rem;
+    }
+
+    .time {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .time div {
+        font-size: 1.5rem;
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .countdown h1 {
+        font-size: 1.8rem;
+    }
+
+    .time div {
+        font-size: 1.2rem;
+        padding: 10px 15px;
+    }
+
+    .label {
+        font-size: 0.8rem;
+    }
+}
