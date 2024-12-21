@@ -24,3 +24,14 @@ function updateCountdown() {
 const interval = setInterval(updateCountdown, 1000);
 updateCountdown();
 
+
+
+// background music
+
+document.addEventListener('DOMContentLoaded', () => {
+    const audio = document.querySelector('audio');
+    document.body.addEventListener('click', () => {
+        audio.muted = false;
+        audio.play().catch(error => console.error('Audio playback failed:', error));
+    }, { once: true });
+});
