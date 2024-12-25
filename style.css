@@ -56,6 +56,11 @@ body {
     margin-top: 5px;
 }
 
+.footer{
+    align-self: last baseline;
+    color: aliceblue;
+}
+
 @media (max-width: 768px) {
     .countdown {
         padding: 20px;
